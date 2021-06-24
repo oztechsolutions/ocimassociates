@@ -1,0 +1,27 @@
+.titleSubtitle {
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.blockArchive {
+	.blockHolder {
+		overflow: hidden;
+		& > a {
+			display: block;
+			margin-top: 3rem;
+			background: #f1f1f1;
+			height: 100%;
+			.img {
+				min-height: 200px;
+			}
+			.title {
+				color: #333;
+				font-size: 18px;
+				font-weight: 600;
+				padding: 20px;
+			}
+		}
+	}
+}
+

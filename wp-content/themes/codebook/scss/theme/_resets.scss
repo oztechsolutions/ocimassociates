@@ -1,0 +1,121 @@
+$red: #E31F26;
+body {
+    font-family: 'Open Sans', sans-serif;
+    //change font? edit the enqueue.php and update the google font
+}
+
+p {
+    font-size: 0.96rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.65rem;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+img { max-width: 100%; height: auto; }
+
+a.custom-button {
+    display: inline-block;
+    background: orange;
+    color: #fff;
+    padding: 12px 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+    i {
+        margin-right: 8px;
+    }
+    &:hover {
+        text-decoration: none;
+        background: darkorange;
+    }
+}
+
+* {
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+	@media(min-width: 992px) and (max-width: 1399px){
+		width: 90%;
+	}
+}
+
+
+/*contact form 7*/
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    background: #398f14;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 8px 15px;
+    opacity: 0;
+}
+
+div.wpcf7-validation-errors {
+    background: rgba(255, 0, 0, 0.40);
+    border: 2px solid rgba(255, 0, 0, 0.40);
+    font-size: 14px;
+    color: #fff;
+    margin: 25px 0 0;
+    padding: 8px 15px;
+}
+
+span.wpcf7-not-valid-tip {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: rgba(255, 0, 0, 0.40);
+    padding: 4px 10px;
+    text-align: left;
+    color: #fff;
+}
+
+
+/*slick slider defaults*/
+
+.slick-dots>li:only-child {
+    display: none;
+}
+
+ul.slick-dots {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 8px;
+        button {
+            background: rgba(255, 255, 255, 0.3);
+            text-indent: -9999pt;
+            height: 12px;
+            width: 12px;
+            border-radius: 100px;
+            border: none;
+            padding: 0;
+            outline: none;
+        }
+    }
+    li.slick-active {
+        button {
+            background: rgba(255, 255, 255, 1.0);
+        }
+    }
+}

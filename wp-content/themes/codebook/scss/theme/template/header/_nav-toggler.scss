@@ -1,0 +1,100 @@
+button.navbar-toggler {
+    padding: 0 0 0 53px;
+    position: relative;
+    border: none;
+    @media(max-width: 575px) {
+        margin-top: -5px;
+    }
+    @media(max-width: 374px) {
+        padding: 0;
+    }
+    &:before {
+        content: 'Menu';
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 49%;
+        transform: translate(0, -49%);
+        -webkit-transform: translate(0, -49%);
+        font-size: 0.95rem;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 700;
+        @media(max-width: 374px) {
+            display: none;
+        }
+    }
+}
+
+.navbar-toggler span.icon-bar {
+    width: 24px;
+    height: 2px;
+    background: #333;
+    display: block;
+    margin: 6px 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navigation .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #333;
+    height: 2px;
+    width: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    right: 0;
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform 0.35s ease-in-out;
+    -o-transition: transform 0.35s ease-in-out;
+    -webkit-transition: -webkit-transform 0.35s ease-in-out;
+    transition: -webkit-transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    right: 1px;
+    top: 6px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    right: 1px;
+    top: 6px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0.9;
+}

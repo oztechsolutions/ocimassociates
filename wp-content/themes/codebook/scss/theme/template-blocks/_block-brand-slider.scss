@@ -1,0 +1,53 @@
+.sliderHeadingText {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+	background: none !important;
+	color: #069 !important;
+	font-family: inherit;
+}
+
+.brandSlider {
+    .brandHolder {
+        padding: 10px;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            min-height: 170px;
+            background: #fff;
+            @media(max-width: 480px) {
+                min-height: 120px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                max-height: 120px;
+                width: auto;
+            }
+            &:hover,
+            &:active,
+            &:focus {
+                outline: none;
+            }
+        }
+        a.noLink {
+            cursor: default;
+        }
+    }
+    ul.slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        li {
+            button {
+                background: #999;
+            }
+            &.slick-active {
+                button {
+                    background: orange;
+                }
+            }
+        }
+    }
+}

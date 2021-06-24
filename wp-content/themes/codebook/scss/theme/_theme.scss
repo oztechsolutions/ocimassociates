@@ -1,0 +1,23 @@
+@import 'resets';
+
+/*** TEMPLATE ***/
+
+@import 'template/base';
+
+/*** TEMPLATE PAGES ***/
+
+@import 'template-pages/base';
+
+/*** TEMPLATE BLOCKS ***/
+
+@import 'template-blocks/base';
+
+/*** TEMPLATE PARTS ***/
+
+@import 'template-parts/base';
+
+/*** WOOCOMMERCE ***/
+
+@import 'woocommerce/base';
+
+@import 'single';
