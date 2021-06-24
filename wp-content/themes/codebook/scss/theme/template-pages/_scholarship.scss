@@ -1,0 +1,56 @@
+.scholarshipHolder {
+    padding: 25px;
+    border: solid 1px #ccc;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+	.uniLogo {
+		flex: 0 0 25%;
+		padding-right: 30px;
+		box-sizing: border-box;
+		@media(max-width: 920px){
+			flex: 0 0 100%;
+			padding-right: 0;
+		}
+		figure {
+			max-width: 300px;
+			margin: 0 auto 30px;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.uniContent {
+		flex: 0 0 70%;
+		display: flex;
+    	flex-flow: row wrap;
+		@media(max-width: 920px){
+			flex: 0 0 100%;
+		}
+		.contentBox {
+			flex: 0 0 100%;
+			padding: 0 10px;
+			@media(min-width: 600px){
+				flex: 0 0 50%;
+			}
+			@media(min-width: 992px){
+				flex: 0 0 33.33%;
+			}
+			.headingtitle {
+				color: #069;
+				font-size: 15px;
+				font-weight: bold;
+				margin-bottom: 14px;
+			}
+			ul {
+				
+				padding-left:18px;
+				li {
+					font-size: 14px;
+					padding-bottom: 10px;
+				}
+			}
+		}
+	}
+}

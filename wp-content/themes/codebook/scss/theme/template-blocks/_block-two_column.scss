@@ -1,0 +1,28 @@
+.block__two_column {
+    overflow-x: hidden;
+    .rightCol {
+        @media(max-width: 767px) {
+            padding-top: 2rem;
+        }
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        @media(max-width: 767px) {
+            font-size: 1.55rem !important;
+        }
+    }
+}
+
+div.block--two_column {
+    &.full-width-stretched,
+    &.normal {
+        .block__two_column {
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}

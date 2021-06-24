@@ -1,0 +1,25 @@
+/* a.acf-hndle-cog {
+    display: none !important;
+} */
+
+[data-preview_size="full"] .image-wrap img {
+    max-height: 180px;
+    width: auto;
+}
+
+.acf-field-repeater table {
+    border-collapse: collapse;
+}
+
+.acf-field-repeater tr.acf-row {
+    border-bottom: solid 2px #4396C9;
+}
+
+
+/* #login h1 a {
+    background: url("../../img/logo.png") !important;
+    width: 240px;
+    height: 70px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+} */

@@ -1,0 +1,30 @@
+a.navbar-brand {
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+	img {
+		max-width: 140px;
+		height: auto;
+	}
+}
+
+nav.navbar {
+    ul.navbar-nav {
+        li {
+            a {
+                color: #444;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+            &.current-menu-item {
+                &>a {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+header.site-header {
+	border-top: solid 5px $red;
+}

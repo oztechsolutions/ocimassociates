@@ -1,0 +1,44 @@
+.contactForm {
+    margin: 0 auto;
+    max-width: 580px;
+    fieldset {
+        padding-bottom: 20px;
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"],
+        input[type="number"],
+        select,
+        textarea {
+            background-color: #F2F2F2;
+            border: solid 1px #D5D5D5;
+            border-radius: 4px;
+            padding: 10px 12px;
+            width: 100%;
+            @media(min-width: 992px) {
+                font-size: 15px;
+            }
+        }
+        input.datepicker {
+            background: url('img/calendar-icon.svg') right 50% / 26px no-repeat #f2f2f2;
+            cursor: pointer;
+        }
+        textarea {
+            height: 140px;
+        }
+        input[type="submit"] {
+            display: inline-block;
+            padding: 12px 2.0rem;
+            background: orange;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 4px;
+            transition: all 0.4s ease;
+            &:hover {
+                background: darkorange;
+            }
+        }
+    }
+}

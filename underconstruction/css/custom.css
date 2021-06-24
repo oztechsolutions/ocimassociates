@@ -1,0 +1,11 @@
+/* your styles go here */
+
+body {
+    background-color: #0053a0 !important;
+    color: #ffffff;
+}
+.social a i {
+    vertical-align: bottom;
+    line-height: 40px;
+    color: #ffffff;
+}

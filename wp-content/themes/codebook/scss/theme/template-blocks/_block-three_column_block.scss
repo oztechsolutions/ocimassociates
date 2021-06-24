@@ -1,0 +1,56 @@
+.mainTitleBlock {
+    font-size: 1.85rem;
+    color: #069;
+    font-weight: 600;
+    @media(max-width: 767px){
+        font-size: 1.6rem;
+    }
+}
+
+.block__three_column_block {
+    display: flex;
+    flex-flow: row wrap;
+    .blockWrapper {
+        flex: 0 0 100%;
+        padding: 0 10px;
+        margin-top: 2rem;
+        @media(min-width: 481px){
+            flex: 0 0 50%;
+        }
+        @media(min-width:768px){
+            flex: 0 0 33.33%
+        }
+        a.imgHolder {
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position: center;
+            min-height: 200px;
+            display: block;
+            border-radius: 5px;
+            overflow: hidden;
+            @media(min-width: 768px){
+                min-height: 260px;
+            }
+        }
+        header {
+            color: #069;
+            font-weight: bold;
+            padding: 15px 0 10px;
+            font-size: 17px;
+        }
+        .shortText {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        .buttonLabel {
+            a {
+                display: inline-block;
+                color: #fff;
+                background: #069;
+                padding: 10px 1.5rem;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+        }
+    }
+}

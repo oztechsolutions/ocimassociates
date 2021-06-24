@@ -1,0 +1,26 @@
+.social-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: #fff;
+        background-color: #444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 100px;
+        margin: 0 5px;
+        transition: all 0.5s ease;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
+
+.grecaptcha-badge {
+	z-index: 99;
+}
