@@ -6,7 +6,7 @@
             <div class="col-12 col-sm-8 col-md-8 col-lg-9">
                 <div class="postContent">
                 <div class="postTitle"><h2 class="pb-4"><?php the_title(); ?></h2></div>
-                <div class="imgFeatured pb-5"><?php //the_post_thumbnail(); ?></div>
+                <!-- <div class="imgFeatured pb-5"><?php //the_post_thumbnail(); ?></div> -->
                 <?php the_content(); ?>
                 </div>
             </div>
