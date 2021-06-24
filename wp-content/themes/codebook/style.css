@@ -404,3 +404,18 @@
  .sidebarContent .sidebarDestinations > a .title { padding:15px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* custom changes */
+a.email {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+i.fa.fa-envelope.mr-8{
+    padding: 5px;
+}
+.fa-envelope{
+    color: #7fb115;
+}
