@@ -34,6 +34,6 @@
 
 </div>
 
-<?php if($layout = 'normal'): ?>
+<?php if($layout == 'normal'): ?>
 	</div>
 <?php endif; ?>
