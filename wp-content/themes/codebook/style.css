@@ -404,3 +404,46 @@
  .sidebarContent .sidebarDestinations > a .title { padding:15px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* custom changes */
+a.email {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+i.fa.fa-envelope.mr-8{
+    padding: 5px;
+}
+.fa-envelope{
+    color: #7fb115;
+}
+
+.block__testimonials .testimonialSlider .slick-slide img {
+    display: block;
+    width: 110px;
+    align-content: center;
+    padding: 0;
+    margin: auto;
+}
+
+.team_slider_name{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 800;
+    text-align: center;
+    padding:5px;
+}
+.team_slider_company{
+    color: #8f8f8f;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center
+}
+.team_slider_desc{
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+}

@@ -16,6 +16,10 @@
         <?php include locate_template( 'template-blocks/block-brand-slider.php' ); ?>
     <?php endif; ?>
 
+    <?php if ( get_row_layout() == 'team-slider' ) : ?>
+        <?php include locate_template( 'template-blocks/block-team-slider.php' ); ?>
+    <?php endif; ?>
+
     <?php if ( get_row_layout() == 'faqs' ) : ?>
         <?php include locate_template( 'template-blocks/block-faqs.php' ); ?>
     <?php endif; ?>
